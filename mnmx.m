@@ -1,0 +1,1 @@
+function o = mnmx( a ); o=[min(a(:)) max(a(:))];end

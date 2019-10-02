@@ -1,0 +1,75 @@
+muscimol
+
+___
+starting cell 51
+- Nothing relevant at millisec scale
+- ISI dip
+- shape of increasing freqs for pure HD cells
+- look just at freqa b/t 0 1
+- all pure HD cells remain midall
+- cell 37 before and after
+-HAVE VERY SIMILAR TEMPORAL PROFILE BEFORE AND AFTER
+- do still have dip before and after?
+_______
+
+cluster ISI
+
+4.1.18
+smooth rate map, just add up to each bin
+check removing spikes for head direction
+correlate vector of b v m correlations
+
+shuffling on spatial
+paint cells by only those that recovered
+standardize axis
+what does residue mean???
+correlate vector of cors b to m spear vs pears
+ISI
+temporal AUTOcorrelation
+head direction - check removing spikes
+ - plot good
+check all on removing spikes
+*********
+___
+- use spearman instead of pearson, (rank order, does not assume
+gaussian) analogous to wilcox vs t-test
+- make sure to specify if points not included in plot
+- check why plots stop at 0 don't show negatives.
+___
+- GRIDSCORE SHOULD ACCOUNT FOR ACCURACY
+- There are theta cells, what smoothing does that belong to?
+- analyze fourier transforms
+- relate smoothing to shuffling?
+
+IIIIIIIII
+
+//Run control: do same analysis for Before vs During, for After vs During
+
+//Correlations: generate results as a function of different levels of
+smoothing, see if there is sharp negative connectivity
+
+//Spatial correlations: center point of cross correlation, include shuffling
+
+//Correlations of Head Direction cells by angle ( should we really do
+this? I don't see the value of this to be honest, obviously similar
+angles will be more correlated, and it doesn't seem very related to
+the study, I'd like to talk more ab out this one.
+
+
+Discuss signal vs noise correlation - I found this attached review by
+Marlene R Cohen & Adam Kohn, let me know if there are other sources to
+look at.
+
+))))))))
+
+Correct head direction by moving direction
+Annotate computeMovingDirection
+Correlate cells by direction
+Refresh on time correlation
+
+
+((((((((((((
+
+
+
+
